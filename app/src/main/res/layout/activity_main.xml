@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androclass="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    androclass:layout_width="match_parent"
+    androclass:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <EditText
+        androclass:ems="10"
+        androclass:id="@+id/editText1"
+        androclass:layout_alignParentTop="true"
+        androclass:layout_centerHorizontal="true"
+        androclass:layout_marginTop="44dp"
+        androclass:layout_width="wrap_content"
+        androclass:layout_height="wrap_content"
+        androclass:minWidth="32dp" />
+
+    <Button
+        androclass:id="@+id/button1"
+        androclass:layout_below="@+id/editText1"
+        androclass:layout_centerHorizontal="true"
+        androclass:layout_marginTop="54dp"
+        androclass:text="Visit"
+        androclass:layout_width="wrap_content"
+        androclass:layout_height="wrap_content" />
+</RelativeLayout>
